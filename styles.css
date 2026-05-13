@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{ height: 100px;}
+    
+.flex-container {
+  display: flex;
+  background-color:whitesmoke;
+align-items: flex-start;
+ justify-content: space-between}
+ 
+
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  align-items: flex-start;
+}
